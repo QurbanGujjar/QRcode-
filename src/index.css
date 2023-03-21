@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.QRmain{
+  display: flex;
+  flex-direction: column;
+}
+.inputQR{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inputQR >input{
+  width: 350px;
+}
+.qrCard{
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #353739;
+  border: none;
+}
+.lable{
+ margin-left: 0px;
+ margin-bottom: 5px;
+}
+.lable *{
+  margin-left: -25px;
+  
+}
