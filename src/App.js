@@ -5,7 +5,7 @@ import Assets from './components/Assets';
 import QrCode from './components/QrCode';
 
 function App() {
-  const [cardKey, setCardKey] = useState("")
+  const [cardKey, setCardKey] = useState("Generate")
 
 
 
