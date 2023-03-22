@@ -11,6 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Main{display: flex;
+flex-direction: row;
+}
+.leftChild{
+  /* background-color: blue; */
+  width: 100%;
+}
+.rightChild{
+  /* background-color: red; */
+  width: 100%;
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -30%;
+}
 .QRmain{
   display: flex;
   flex-direction: column;
@@ -21,18 +35,32 @@ code {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    margin-top: 10px;
+   }
 .inputQR >input{
   width: 350px;
 }
+.ScanQR{
+  /* position: relative; */
+  display:inline;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 10%; */
+    
+   }
+
 .qrCard{
   margin-top: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #353739;
   border: none;
+  width: 34%;
+  margin-left: 33%;
+
 }
 .lable{
  margin-left: 0px;
@@ -42,3 +70,21 @@ code {
   margin-left: -25px;
   
 }
+
+:where(.css-dev-only-do-not-override-mxhywb).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>th{
+background-color: rgba(77, 77, 77, 0.349);
+}
+
+@media (max-width: 540px) {
+  .qrCard{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    text-align: center; */
+    border: none;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+

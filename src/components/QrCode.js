@@ -23,7 +23,7 @@ export default function QrCode() {
     return (
         <div className='QRmain'>
             <div className='lable'>
-                <label>Enter QR Code :</label>
+                <label>Enter QR Code</label>
             </div>
             <div className='inputQR'>
                 <Input placeholder="Enter code Number" value={codenumber} onChange={(e) => setCodenumber(e.target.value)} />

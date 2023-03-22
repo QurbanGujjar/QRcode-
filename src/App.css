@@ -13,12 +13,18 @@
   }
 }
 :where(.css-dev-only-do-not-override-mxhywb).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+
+  /* color:blue; */
+  text-shadow: 0 0 0.25px currentcolor;
+  font-size: medium;
+}
+ .ant-tabs-tab-btn {
   color:white;
   text-shadow: 0 0 0.25px currentcolor;
   font-size: medium;
 }
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +34,9 @@
   color: white;
 }
 .navBarCard {
-  background-color: #282c34;
+  background-image: url(../public/6026986.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,3 +58,4 @@
     transform: rotate(360deg);
   }
 }
+
